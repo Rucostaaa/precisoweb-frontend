@@ -39,6 +39,6 @@ export const statusFetch = async (method, token, body, url) => {
     return response;  // Return the response data
   } catch (error) {
     console.error("Axios error:", error);
-    throw error;  // Re-throw the error to handle it at a higher level
+    throw error;  
   }
 };
